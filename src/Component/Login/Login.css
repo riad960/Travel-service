@@ -1,0 +1,25 @@
+.login{
+    margin-top: 100px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 95vh;
+    
+}
+.login h1{
+    margin-top: 140px;
+}
+.form{
+    width: 35%;
+    margin: auto;
+    
+}
+@media(max-width:700px){
+    .login{
+        height: 75vh;
+    }
+    .form{
+        width: 85%;
+    }
+}
